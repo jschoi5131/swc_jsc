@@ -1,0 +1,8 @@
+# calculate the average discharge rate for all data
+#files in a directory
+
+for datafile in data_*.txt
+do
+	echo $datafile
+	python avg_discharge.py $datafile
+done
